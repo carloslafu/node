@@ -95,12 +95,14 @@ app.post('/api/lista', function(peticion, respuesta){
     })
 })
 
-app.delete('/api/lista/:item', function(peticion, respuesta){
+app.delete('*:item', function(peticion, respuesta){
    // id : peticion.params.item
+   respuesta.send("Operación no permitida");
 })
 
-app.put('/api/lista/:item', function(peticion, respuesta){
+app.put('*:item', function(peticion, respuesta){
     // método de update
+   respuesta.send("Operación no permitida");
 })
 
 
