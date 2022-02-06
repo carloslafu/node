@@ -1,0 +1,11 @@
+{
+    "name": "AngularAPI",
+    "version": "1.0.0",
+    "author": "Carlos la Fuente",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "~3.x",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.15"
+    }
+}
